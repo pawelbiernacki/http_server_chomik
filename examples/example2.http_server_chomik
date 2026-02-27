@@ -1,0 +1,5 @@
+#!/usr/local/bin/http_server_chomik
+
+<print "Hello! This is http_server_chomik.">;
+
+<http server loop>;

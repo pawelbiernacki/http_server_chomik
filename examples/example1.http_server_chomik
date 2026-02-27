@@ -1,0 +1,3 @@
+#!/usr/local/bin/http_server_chomik
+
+<print "hello!">;

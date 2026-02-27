@@ -5323,7 +5323,7 @@ printf "%s\n" "$ac_cv_header_stdbool_h" >&6; }
 
 # Checks for library functions.
 
-ac_config_files="$ac_config_files Makefile inc/Makefile src/Makefile"
+ac_config_files="$ac_config_files Makefile examples/Makefile inc/Makefile src/Makefile"
 
 cat >confcache <<\_ACEOF
 # This file is a shell script that caches the results of configure
@@ -6055,6 +6055,7 @@ do
     "config.h") CONFIG_HEADERS="$CONFIG_HEADERS config.h" ;;
     "depfiles") CONFIG_COMMANDS="$CONFIG_COMMANDS depfiles" ;;
     "Makefile") CONFIG_FILES="$CONFIG_FILES Makefile" ;;
+    "examples/Makefile") CONFIG_FILES="$CONFIG_FILES examples/Makefile" ;;
     "inc/Makefile") CONFIG_FILES="$CONFIG_FILES inc/Makefile" ;;
     "src/Makefile") CONFIG_FILES="$CONFIG_FILES src/Makefile" ;;
 

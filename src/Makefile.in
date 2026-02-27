@@ -101,7 +101,7 @@ am__installdirs = "$(DESTDIR)$(bindir)"
 PROGRAMS = $(bin_PROGRAMS)
 am_http_server_chomik_OBJECTS = http_server_chomik.$(OBJEXT)
 http_server_chomik_OBJECTS = $(am_http_server_chomik_OBJECTS)
-http_server_chomik_LDADD = $(LDADD)
+http_server_chomik_DEPENDENCIES =
 AM_V_P = $(am__v_P_@AM_V@)
 am__v_P_ = $(am__v_P_@AM_DEFAULT_V@)
 am__v_P_0 = false
@@ -251,6 +251,7 @@ top_build_prefix = @top_build_prefix@
 top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
 http_server_chomik_SOURCES = http_server_chomik.cc
+http_server_chomik_LDADD = -lhttpchomik
 AM_CXXFLAGS = @CXXFLAGS@ -fconcepts -std=c++17 -I.. -I../inc
 all: all-am
 

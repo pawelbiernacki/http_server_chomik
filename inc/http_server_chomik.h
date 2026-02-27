@@ -8,6 +8,9 @@ namespace http_server_chomik
 
     class machine: public chomik::machine
     {
+    protected:
+        virtual void http_server_loop();
+
     public:
         machine() = default;
         virtual ~machine() = default;
