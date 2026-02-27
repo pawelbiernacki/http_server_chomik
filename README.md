@@ -1,2 +1,2 @@
-# http_chomik
+# http_server_chomik
 A dialect of Chomik enabling writing simple HTTP servers.
